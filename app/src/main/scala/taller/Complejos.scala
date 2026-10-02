@@ -30,7 +30,7 @@ class Complejos(val r: Double, val i: Double) {
     if (parteImaginaria.startsWith("-")) {
       s"$parteReal ${parteImaginaria.substring(1)}i"
     } else {
-      s"$parteReal + $parteImaginaria"
+      s"$parteReal + $parteImaginariai"
     }
   } // Completar
 }
